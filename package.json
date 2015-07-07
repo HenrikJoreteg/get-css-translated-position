@@ -1,7 +1,7 @@
 {
   "name": "get-css-translated-position",
   "description": "Get position of DOM elements positioned with CSS translate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "bugs": {
     "url": "https://github.com/henrikjoreteg/get-css-translated-position/issues"
