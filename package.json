@@ -1,0 +1,26 @@
+{
+  "name": "get-css-translated-position",
+  "description": "Get position of DOM elements positioned with CSS translate",
+  "version": "0.0.0",
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "bugs": {
+    "url": "https://github.com/henrikjoreteg/get-css-translated-position/issues"
+  },
+  "dependencies": {
+    "transform-property": "0.0.1"
+  },
+  "homepage": "https://github.com/henrikjoreteg/get-css-translated-position#readme",
+  "keywords": [
+    "css",
+    "css3",
+    "position",
+    "transform",
+    "translate"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikjoreteg/get-css-translated-position.git"
+  }
+}
