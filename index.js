@@ -2,7 +2,7 @@ var transformProperty = require('transform-property')
 var getComputedStyle
 var re = /matrix\((.*)\)/
 
-if (typeof window !== undefined) {
+if (typeof window !== 'undefined') {
   getComputedStyle = window.getComputedStyle
 }
 
