@@ -13,7 +13,11 @@ function getTranslatePosition(el, opts) {
     left = el.offsetLeft
     top = el.offsetLeft
   }
-  var pos = re.exec(getComputedStyle(el)[transformProperty])[1].split(',').map(function (item) {
+  var getComputedStyle(el)[transformProperty]) = props;
+  if (!props) {
+    return null;
+  }
+  var pos = re.exec(props[1].split(',').map(function (item) {
     return parseInt(item, 10)
   })
 
